@@ -10,9 +10,9 @@
   --ink:        #22252B; /* 本文インク */
   --ink-soft:   #5B5D62; /* 補助テキスト */
   --line:       #C9C2B2; /* 罫線（インデックスカードの罫） */
-  --accent:     #2F5D62; /* リンク・強調（深いティール） */
+  --accent:     #B5643D; /* リンク・強調（深いティール） */
   --accent-soft:#DCE7E6; /* タグ背景 */
-  --brass:      #8C6A2E; /* 日付・採番（真鍮色） */
+  --brass:      #435B72; /* 日付・採番（真鍮色） */
 
   /* --- type --- */
   --font-display: 'Zen Old Mincho', serif;
