@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About｜氏名</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="site-header__brand" href="index.html"><span class="mark">&#9670;</span>氏名</a>
+  <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="メニューを開閉する">
+    <span class="bar"></span>
+  </button>
+  <nav class="site-nav" id="siteNav" data-state="closed">
+    <a class="site-nav__link" href="index.html">Home</a>
+    <a class="site-nav__link" href="about.html">About</a>
+    <a class="site-nav__link" href="information.html">Information</a>
+    <a class="site-nav__link" href="publications.html">Publications</a>
+    <a class="site-nav__link" href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-head">
+    <p class="hero__kicker">About</p>
+    <h1 class="page-title">About</h1>
+  </section>
+
+  <dl class="profile-grid">
+    <dt>氏名</dt>
+    <dd>氏名</dd>
+
+    <dt>所属研究室</dt>
+    <dd>◯◯大学大学院 ◯◯研究科 ◯◯研究室</dd>
+
+    <dt>研究分野</dt>
+    <dd>感性認知科学、多感覚知覚、感覚マーケティング（味覚・色彩・印象語の対応関係　など）</dd>
+  </dl>
+
+  <section class="section-block" style="padding-top:0;">
+    <div class="section-heading">
+      <h2>経歴</h2>
+    </div>
+    <ol class="timeline">
+      <li><span class="year">20XX年X月</span>◯◯大学 ◯◯学部 卒業</li>
+      <li><span class="year">20XX年X月</span>◯◯大学大学院 ◯◯研究科 修士課程 入学</li>
+      <li><span class="year">20XX年X月</span>同 修士課程 修了</li>
+      <li><span class="year">20XX年X月</span>◯◯大学大学院 ◯◯研究科 博士後期課程 進学（現在に至る）</li>
+    </ol>
+  </section>
+</main>
+
+<footer class="site-footer">&copy; 2026 氏名. All rights reserved.</footer>
+
+<script src="js/news-data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
