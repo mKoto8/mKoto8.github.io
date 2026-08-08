@@ -191,7 +191,13 @@ img { max-width: 100%; display: block; }
   margin: 0 auto;
   padding: 56px clamp(20px, 6vw, 56px) 0;
 }
-.page-title { font-size: clamp(28px, 4vw, 40px); margin: 6px 0 12px; }
+.page-title { font-family: var(--font-mono);
+  font-size: 28px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--brass);
+  margin: 0 0 18px;
+}
 .page-lead { color: var(--ink-soft); font-size: 15px; max-width: 62ch; }
 
 .section-block {
